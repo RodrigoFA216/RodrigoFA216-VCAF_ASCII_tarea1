@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+		      Escribir texto matemático en formato digital
+			    Francisco Javier Benitez Diaz
+				2 de octubre de 2020
+-------------------------------------------------------------------------------
+Análogamente, para todo numero complejo z = (x, y) no nulo, existe un numero
+complejo z¯¹ tal que zz¯¹=1. Este inverso multiplicativo es menos obvio que
+el aditivo. Para hallarlo, buscamos números reales u, v expresados en términos
+de x e y, tales que
+
+				(x, y)(u, v) = (1, 0).
+
+Según la Ecuación [5] de la Sección 1, que define el producto de dos números
+complejos u y v han de satisfacer el par.
+
+			       xu − yv = 1, yu + xv = 0
+
+de ecuaciones lineales simultaneas; y un sencillo calculo proporciona la única
+solución.
+
+				x		   -y
+			u=_____________ , v=________________
+			      x²+y² 		  x²+y²
+
+De modo que el inverso multiplicativo de z = (x, y) es
+
+				   x	    	 -y
+			z¯¹=(____________ , ____________) (z!=0)
+				x²+y²		x²+y²
+
+La existencia de inversos multiplicativos nos capacita para demostrar que
+si un producto z1z2 es cero, entonces al menos uno de los factores, z1 o z2, 
+es cero. Porque supongamos que z1z2 = 0 y que z1 6= 0. El inverso 
+multiplicativo z¯¹ existe y, según la definición de la multiplicación, 
+todo numero complejo por cero da cero.
+-------------------------------------------------------------------------------
+
